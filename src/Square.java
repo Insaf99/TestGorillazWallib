@@ -1,6 +1,6 @@
 public class Square implements Shape{
 
-    public static void draw(){
+    public void draw(){
         System.out.println("Square");
     }
 }

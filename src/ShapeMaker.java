@@ -1,14 +1,17 @@
 public class ShapeMaker{
 
     void drawCircle(){
-        Circle.draw();
+        Circle circle = new Circle();
+        circle.draw();
     }
 
     void drawRectangle(){
-        Rectangle.draw();
+        Rectangle rectangle = new Rectangle();
+        rectangle.draw();
     }
 
     void drawSquare(){
-        Square.draw();
+        Square square = new Square();
+        square.draw();
     }
 }
